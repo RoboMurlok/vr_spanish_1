@@ -1,0 +1,92 @@
+export const reviews = [
+  {
+    name: "Juan Pérez",
+    role: "Empresario",
+    text: "La consultoría financiera me ayudó a organizar mis gastos y aumentar mis ahorros en pocos meses.",
+    avatar: "https://i.pravatar.cc/100?img=12",
+  },
+  {
+    name: "María López",
+    role: "Profesional independiente",
+    text: "Excelente asesoría, muy clara y personalizada según mis objetivos financieros.",
+    avatar: "https://i.pravatar.cc/100?img=5",
+  },
+  {
+    name: "Carlos García",
+    role: "Emprendedor",
+    text: "Gracias al plan de inversión recomendado, logré mejorar el rendimiento de mi negocio.",
+    avatar: "https://i.pravatar.cc/100?img=7",
+  },
+  {
+    name: "María López",
+    role: "Profesora",
+    text: "Gracias a la asesoría financiera pude planificar mejor mi presupuesto mensual y reducir mis deudas.",
+    avatar: "https://i.pravatar.cc/100?img=15",
+  },
+  {
+    name: "Carlos Ramírez",
+    role: "Ingeniero",
+    text: "Aprendí a invertir de manera inteligente y ahora mis ahorros generan un rendimiento constante.",
+    avatar: "https://i.pravatar.cc/100?img=18",
+  },
+  {
+    name: "Ana García",
+    role: "Emprendedora",
+    text: "La consultoría me dio herramientas para tomar decisiones financieras seguras para mi negocio.",
+    avatar: "https://i.pravatar.cc/100?img=21",
+  },
+  {
+    name: "Luis Fernández",
+    role: "Abogado",
+    text: "Me enseñaron a diversificar mis inversiones y proteger mi patrimonio.",
+    avatar: "https://i.pravatar.cc/100?img=24",
+  },
+  {
+    name: "Sofía Martínez",
+    role: "Diseñadora",
+    text: "Ahora tengo un control total sobre mis gastos y puedo ahorrar para mis proyectos personales.",
+    avatar: "https://i.pravatar.cc/100?img=27",
+  },
+  {
+    name: "Jorge Torres",
+    role: "Consultor",
+    text: "El asesoramiento financiero me permitió optimizar mis ingresos y planificar mi futuro.",
+    avatar: "https://i.pravatar.cc/100?img=30",
+  },
+  {
+    name: "Lucía Díaz",
+    role: "Estudiante",
+    text: "Aprendí a manejar mi dinero de manera responsable y a evitar gastos innecesarios.",
+    avatar: "https://i.pravatar.cc/100?img=33",
+  },
+  {
+    name: "Miguel Sánchez",
+    role: "Médico",
+    text: "La planificación financiera me ayudó a asegurar un ahorro constante para emergencias.",
+    avatar: "https://i.pravatar.cc/100?img=36",
+  },
+  {
+    name: "Elena Ruiz",
+    role: "Arquitecta",
+    text: "Ahora entiendo cómo funciona la inversión y cómo puedo hacer crecer mi dinero con seguridad.",
+    avatar: "https://i.pravatar.cc/100?img=39",
+  },
+  {
+    name: "David Morales",
+    role: "Programador",
+    text: "La asesoría me dio estrategias prácticas para ahorrar sin sacrificar mi estilo de vida.",
+    avatar: "https://i.pravatar.cc/100?img=42",
+  },
+  {
+    name: "Isabel Torres",
+    role: "Chef",
+    text: "Gracias a la consultoría, puedo planificar mis compras y optimizar mi presupuesto familiar.",
+    avatar: "https://i.pravatar.cc/100?img=45",
+  },
+  {
+    name: "Fernando Gómez",
+    role: "Empresario",
+    text: "Ahora tengo claridad sobre mis finanzas y puedo invertir con confianza en nuevos proyectos.",
+    avatar: "https://i.pravatar.cc/100?img=48",
+  },
+];

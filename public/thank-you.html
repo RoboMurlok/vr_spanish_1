@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Děkujeme za kontakt</title>
+  <meta name="robots" content="noindex, nofollow">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #2B2D42 0%, #8D99AE 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .thank-you-container {
+      background: white;
+      padding: 3rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+      text-align: center;
+      max-width: 600px;
+    }
+    .thank-you-container h1 {
+      color: #2B2D42;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+    .thank-you-container p {
+      color: #666;
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+    .thank-you-container a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      background: #EDF2F4;
+      color: #2B2D42;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+    .thank-you-container a:hover {
+      background: #8D99AE;
+    }
+  </style>
+</head>
+<body>
+  <div class="thank-you-container">
+    <h1>✅ Děkujeme za váš zájem!</h1>
+    <p>Vaši zprávu jsme obdrželi a odpovíme do 24 hodin.</p>
+    <p>Kontrolní číslo: #<span id="reference"></span></p>
+    <div>
+      <a href="/">Zpět na hlavní stránku</a>
+      <a href="/#sluzby">Naše služby</a>
+    </div>
+  </div>
+  <script>
+    document.getElementById('reference').textContent = Date.now();
+  </script>
+</body>
+</html>
+

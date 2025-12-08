@@ -1,0 +1,14 @@
+[
+  {
+    "--color-primary": "#e74c3c",
+    "--color-primary-dark": "#c0392b",
+    "--color-secondary": "#fde9e7",
+    "--color-text": "#2d2d2d",
+    "--color-subtext": "#666",
+    "--color-bg-hero": "linear-gradient(135deg, #ffeceb, #fbdad8)",
+    "--color-bg-why": "#ffe4e3",
+    "--color-bg-contact": "linear-gradient(135deg, #e74c3c, #c0392b)",
+    "--color-bg-card": "#ffffff",
+    "--color-shadow": "rgba(0,0,0,0.14)"
+  }
+]

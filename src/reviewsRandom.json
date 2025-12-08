@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Sofía Martínez",
+    "role": "Diseñadora",
+    "text": "Ahora tengo un control total sobre mis gastos y puedo ahorrar para mis proyectos personales.",
+    "avatar": "https://i.pravatar.cc/100?img=27"
+  },
+  {
+    "name": "Juan Pérez",
+    "role": "Empresario",
+    "text": "La consultoría financiera me ayudó a organizar mis gastos y aumentar mis ahorros en pocos meses.",
+    "avatar": "https://i.pravatar.cc/100?img=12"
+  },
+  {
+    "name": "Carlos García",
+    "role": "Emprendedor",
+    "text": "Gracias al plan de inversión recomendado, logré mejorar el rendimiento de mi negocio.",
+    "avatar": "https://i.pravatar.cc/100?img=7"
+  }
+]
