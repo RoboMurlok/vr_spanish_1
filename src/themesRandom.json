@@ -1,14 +1,14 @@
 [
   {
-    "--color-primary": "#f39c12",
-    "--color-primary-dark": "#d68910",
-    "--color-secondary": "#fef5e7",
-    "--color-text": "#4a4a4a",
-    "--color-subtext": "#7d7d7d",
-    "--color-bg-hero": "linear-gradient(135deg, #fff8e6, #fbeccd)",
-    "--color-bg-why": "#fff4d7",
-    "--color-bg-contact": "linear-gradient(135deg, #f39c12, #d68910)",
+    "--color-primary": "#34495e",
+    "--color-primary-dark": "#2c3e50",
+    "--color-secondary": "#ecf0f1",
+    "--color-text": "#2c3e50",
+    "--color-subtext": "#7f8c8d",
+    "--color-bg-hero": "linear-gradient(135deg, #f3f6f8, #e2e8ec)",
+    "--color-bg-why": "#f0f3f4",
+    "--color-bg-contact": "linear-gradient(135deg, #34495e, #2c3e50)",
     "--color-bg-card": "#ffffff",
-    "--color-shadow": "rgba(0,0,0,0.10)"
+    "--color-shadow": "rgba(0,0,0,0.18)"
   }
 ]

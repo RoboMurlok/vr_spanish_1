@@ -6,15 +6,15 @@
     "avatar": "https://i.pravatar.cc/100?img=48"
   },
   {
-    "name": "Lucía Díaz",
-    "role": "Estudiante",
-    "text": "Aprendí a manejar mi dinero de manera responsable y a evitar gastos innecesarios.",
-    "avatar": "https://i.pravatar.cc/100?img=33"
-  },
-  {
     "name": "Luis Fernández",
     "role": "Abogado",
     "text": "Me enseñaron a diversificar mis inversiones y proteger mi patrimonio.",
     "avatar": "https://i.pravatar.cc/100?img=24"
+  },
+  {
+    "name": "Isabel Torres",
+    "role": "Chef",
+    "text": "Gracias a la consultoría, puedo planificar mis compras y optimizar mi presupuesto familiar.",
+    "avatar": "https://i.pravatar.cc/100?img=45"
   }
 ]
