@@ -1,24 +1,26 @@
+
+
 const services = [
   {
     icon: "💼",
     title: "Auditoría financiera",
     desc: "Revisión completa de ingresos, gastos y riesgos financieros.",
     cta: "Registrarse",
-    link: "#contact",
+    link: "#/#contact",
   },
   {
     icon: "🔍",
     title: "Optimización de gastos",
     desc: "Revisión de gastos y propuestas de ahorro sin perder calidad de vida.",
     cta: "Saber más",
-    link: "#contact",
+    link: "#/#contact",
   },
   {
     icon: "📊",
     title: "Presupuesto personal/familiar",
     desc: "Plan paso a paso para ahorros y control de gastos con objetivos reales.",
     cta: "Crear",
-    link: "#contact",
+    link: "#/#contact",
   },
   {
     icon: "📈",
@@ -45,11 +47,7 @@ const services = [
 
 export default function ServicesSection() {
   return (
-    <section id="services" className="section container">
-      <h2 className="section-title">Nuestros servicios</h2>
-      <p className="section-sub">
-        Soluciones integrales para finanzas personales y corporativas
-      </p>
+    <section id="services" className="container">
       <ul className="grid services-grid">
         {services.map((service, index) => (
           <li className="card" key={index}>

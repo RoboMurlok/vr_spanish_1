@@ -5,9 +5,6 @@ import randomPosts from "../../blogRandom.json";
 export default function BlogSection() {
   return (
     <section id="blog" className="container">
-      <h2 className="section-title">Nuestro Blog</h2>
-      <p className="section-sub">Artículos y recursos para mejorar tus finanzas</p>
-
       <ul className="grid blog-grid">
         {randomPosts.map((article, index) => (
           <li key={index} className="card">

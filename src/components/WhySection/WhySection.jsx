@@ -24,11 +24,6 @@ const reasons = [
 export default function WhySection() {
   return (
     <section id="why" className="container why">
-      <h2 className="section-title">Por qué elegirnos</h2>
-      <p className="section-sub">
-        Nuestro enfoque se basa en la transparencia, la experiencia y
-        estrategias financieras reales.
-      </p>
       <ul className="grid why-grid">
         {reasons.map((reason, index) => (
           <li className="card" key={index}>

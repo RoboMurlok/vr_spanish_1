@@ -1,44 +1,9 @@
-// import fs from "fs";
-// import path from "path";
-// import { fileURLToPath, pathToFileURL } from "url";
-
-// const __filename = fileURLToPath(import.meta.url);
-// const __dirname = path.dirname(__filename);
-
-// // путь к posts.js (обычный Windows-путь)
-// const postsPath = path.join(__dirname, "src", "db", "posts.js");
-
-// // преобразуем Windows-путь → корректный file:// URL
-// const postsModule = await import(pathToFileURL(postsPath).href);
-// const { posts } = postsModule;
-
-// // перемешиваем
-// const shuffled = [...posts].sort(() => Math.random() - 0.5);
-
-// // случайное количество 6–10
-// const randomCount = Math.floor(Math.random() * 5) + 6;
-
-// // выбираем нужные статьи
-// const selected = shuffled.slice(0, randomCount);
-
-// // куда сохраняем
-// const output = path.join(__dirname, "src", "blogRandom.json");
-
-// // записываем
-// fs.writeFileSync(output, JSON.stringify(selected, null, 2));
-
-// console.log(
-//   `Blog posts generated (${randomCount} posts):`,
-//   selected.map((p) => p.slug)
-// );
-
-
 import fs from "fs";
 import path from "path";
 import { fileURLToPath, pathToFileURL } from "url";
 
 // импорт seed
-import {seed} from "./seed.js";
+import { seed } from "./seed.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

@@ -24,8 +24,6 @@ export default function FAQSection() {
 
   return (
     <section id="faq" className="container faq">
-      <h2 className="section-title">Preguntas frecuentes</h2>
-      <p className="section-sub">Resolvemos las dudas más comunes de nuestros clientes</p>
       <ul className="faq-list">
         {faqs.map((item, index) => (
           <li key={index} className="faq-item">

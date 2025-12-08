@@ -715,3 +715,9 @@ textarea {
     font-size: 0.85rem;
   }
 }
+
+/* CONTACT BANNER */
+
+.banner{
+  background: var(--color-bg-why);
+}

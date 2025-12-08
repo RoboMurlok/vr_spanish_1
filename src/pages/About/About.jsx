@@ -1,12 +1,13 @@
-import FAQSection from "../../components/FAQSection/FAQSection";
+import React from "react";
+import WhySection from "../../components/WhySection/WhySection";
 import BannerSection from "../../components/BannerSection";
 import TextSection from "../../components/TextSection/TextSection";
 
-export default function FAQ() {
+export default function About() {
   return (
-    <div className="faq">
+    <div>
       <BannerSection />
-      <FAQSection />
+      <WhySection />
       <TextSection />
     </div>
   );

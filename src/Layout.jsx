@@ -8,12 +8,9 @@ import themes from "./themesRandom.json";
 
 export default function Layout() {
   useEffect(() => {
- Object.entries(themes[0]).forEach(([key, value]) => {
-  document.documentElement.style.setProperty(key, value);
-});
-
-    console.log(themes);
-
+    Object.entries(themes[0]).forEach(([key, value]) => {
+      document.documentElement.style.setProperty(key, value);
+    });
     getMeta(1);
   }, []);
 

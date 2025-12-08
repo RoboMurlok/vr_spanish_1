@@ -1,10 +1,15 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath, pathToFileURL } from "url";
-import { seed } from "./seed.js"; // импортируем сид
+import { seed } from "./seed.js"; // <-- импортируем seed
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+// путь к text.js
+const textPath = path.join(__dirname, "src", "db", "text.js");
+const textModule = await import(pathToFileURL(textPath).href);
+const { text } = textModule;
 
 // ===== ДЕТЕРМИНИРОВАННЫЙ СИД-ГЕНЕРАТОР =====
 function seedRandom(seed) {
@@ -27,20 +32,16 @@ function shuffleWithSeed(array, seed) {
   return result;
 }
 
-// путь к themes.js
-const themesPath = path.join(__dirname, "src", "db", "themes.js");
-const themesModule = await import(pathToFileURL(themesPath).href);
-const { themes } = themesModule;
+// перемешиваем по seed
+const shuffled = shuffleWithSeed(text, seed);
 
-// перемешиваем детерминированно
-const shuffled = shuffleWithSeed(themes, seed);
+// выбираем ровно 5
+const selected = shuffled.slice(0, 5);
 
-// выбираем нужное количество тем
-const randomCount = 1;
-const selected = shuffled.slice(0, randomCount);
+const outputPath = path.join(__dirname, "src", "textRandom.json");
+fs.writeFileSync(outputPath, JSON.stringify(selected, null, 2));
 
-// сохраняем в JSON
-const output = path.join(__dirname, "src", "themesRandom.json");
-fs.writeFileSync(output, JSON.stringify(selected, null, 2));
-
-console.log(`Themes generated (${randomCount} themes):`, selected);
+console.log(
+  `text generated (3 text) with seed ${seed}:`,
+  selected.map((p) => p.name)
+);

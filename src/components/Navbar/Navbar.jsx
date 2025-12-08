@@ -41,17 +41,13 @@ export default function Navbar() {
           </a>
         </li>
         <li>
-          <a href="#services" onClick={handleAnchorClick("services")}>
-            Servicios
-          </a>
+          <Link to="/services">Servicios</Link>
         </li>
         <li>
-          <a href="#why" onClick={handleAnchorClick("why")}>
-            Por qué elegirnos
-          </a>
+          <Link to="/about">Por qué elegirnos</Link>
         </li>
         <li>
-          <Link to="/testimonials">Testimonios</Link>
+          <Link to="/reviews">Testimonios</Link>
         </li>
         <li>
           <Link to="/blog">Blog</Link>

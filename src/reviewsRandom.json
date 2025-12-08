@@ -1,20 +1,20 @@
 [
   {
-    "name": "Fernando Gómez",
+    "name": "Carlos Ramírez",
+    "role": "Ingeniero",
+    "text": "Aprendí a invertir de manera inteligente y ahora mis ahorros generan un rendimiento constante.",
+    "avatar": "https://i.pravatar.cc/100?img=18"
+  },
+  {
+    "name": "Juan Pérez",
     "role": "Empresario",
-    "text": "Ahora tengo claridad sobre mis finanzas y puedo invertir con confianza en nuevos proyectos.",
-    "avatar": "https://i.pravatar.cc/100?img=48"
+    "text": "La consultoría financiera me ayudó a organizar mis gastos y aumentar mis ahorros en pocos meses.",
+    "avatar": "https://i.pravatar.cc/100?img=12"
   },
   {
-    "name": "Luis Fernández",
-    "role": "Abogado",
-    "text": "Me enseñaron a diversificar mis inversiones y proteger mi patrimonio.",
-    "avatar": "https://i.pravatar.cc/100?img=24"
-  },
-  {
-    "name": "Isabel Torres",
-    "role": "Chef",
-    "text": "Gracias a la consultoría, puedo planificar mis compras y optimizar mi presupuesto familiar.",
-    "avatar": "https://i.pravatar.cc/100?img=45"
+    "name": "Sofía Martínez",
+    "role": "Diseñadora",
+    "text": "Ahora tengo un control total sobre mis gastos y puedo ahorrar para mis proyectos personales.",
+    "avatar": "https://i.pravatar.cc/100?img=27"
   }
 ]

@@ -9,7 +9,8 @@
     "shuffle:posts": "node generateBlogPosts.js",
     "shuffle:reviews": "node generateReviews.js",
     "shuffle:themes": "node generateTheme.js",
-    "shuffleAll": "npm run shuffle:sections && npm run shuffle:posts && npm run shuffle:reviews && npm run shuffle:themes",
+    "shuffle:text": "node generateText.js",
+    "shuffleAll": "npm run shuffle:sections && npm run shuffle:posts && npm run shuffle:reviews && npm run shuffle:themes && npm run shuffle:text",
     "build": "npm run shuffleAll && vite build",
     "lint": "eslint .",
     "preview": "vite preview"

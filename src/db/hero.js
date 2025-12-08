@@ -46,7 +46,5 @@ const arrHero = [
 export function getHero(index = 0) {
   const heroIndex = (seed * 7 + index * 13) % arrHero.length;
  return arrHero[heroIndex];
-
-
 }
 
