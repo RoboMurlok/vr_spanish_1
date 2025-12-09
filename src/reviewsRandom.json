@@ -1,20 +1,20 @@
 [
   {
-    "name": "Carlos Ramírez",
-    "role": "Ingeniero",
-    "text": "Aprendí a invertir de manera inteligente y ahora mis ahorros generan un rendimiento constante.",
-    "avatar": "https://i.pravatar.cc/100?img=18"
+    "name": "María López",
+    "role": "Profesional independiente",
+    "text": "Excelente asesoría, muy clara y personalizada según mis objetivos financieros.",
+    "avatar": "https://i.pravatar.cc/100?img=5"
   },
   {
-    "name": "Juan Pérez",
-    "role": "Empresario",
-    "text": "La consultoría financiera me ayudó a organizar mis gastos y aumentar mis ahorros en pocos meses.",
-    "avatar": "https://i.pravatar.cc/100?img=12"
+    "name": "Miguel Sánchez",
+    "role": "Médico",
+    "text": "La planificación financiera me ayudó a asegurar un ahorro constante para emergencias.",
+    "avatar": "https://i.pravatar.cc/100?img=36"
   },
   {
-    "name": "Sofía Martínez",
-    "role": "Diseñadora",
-    "text": "Ahora tengo un control total sobre mis gastos y puedo ahorrar para mis proyectos personales.",
-    "avatar": "https://i.pravatar.cc/100?img=27"
+    "name": "Ana García",
+    "role": "Emprendedora",
+    "text": "La consultoría me dio herramientas para tomar decisiones financieras seguras para mi negocio.",
+    "avatar": "https://i.pravatar.cc/100?img=21"
   }
 ]

@@ -25,7 +25,7 @@ export default function TextSection() {
     <section className="hero container">
       <div className="hero-text">
         <h1 className="post-title">{currentText.title}</h1>
-        <p className="section-sub">{currentText.content}</p>
+        <p className="card-title">{currentText.content}</p>
       </div>
 
       <div className="hero-image">

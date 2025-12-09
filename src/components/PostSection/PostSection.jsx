@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { posts } from "../../db/posts.js";
 
 export default function PostSection() {
@@ -32,6 +32,11 @@ export default function PostSection() {
           {post.content.map((paragraph, index) => (
             <p key={index}>{paragraph}</p>
           ))}
+          <div className="post-sub">
+            <Link to="/blog" className="card-cta">
+              Nuestros servicios
+            </Link>
+          </div>
         </div>
       </div>
     </section>

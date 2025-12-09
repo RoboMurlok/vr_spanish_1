@@ -426,7 +426,7 @@ body {
   box-shadow: 0 0 0 3px var(--color-shadow);
 }
 textarea {
-  min-height: 120px;
+  min-height: 80px;
   resize: vertical;
 }
 .contact-btn {

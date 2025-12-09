@@ -30,6 +30,16 @@ const arrMeta = [
   "Obtén recursos educativos prácticos para mejorar tu planificación financiera y tomar decisiones inteligentes con tu dinero.",
 
   "Aprende hábitos financieros saludables y estrategias de ahorro e inversión que fortalecen tu seguridad y bienestar económico.",
+  "Materiales educativos sobre alfabetización financiera para jubilados. Planificación presupuestos sin promesas de ingresos.",
+  "Consejos para pensionados: cómo ahorrar en pensión con control de gastos. Optimización familiar responsable.",
+  "Educación financiera jubilados: estrategias de presupuesto y ahorro sin exageraciones publicitarias.",
+  "Contenido para pensionados sobre control de gastos en jubilación. Planificación práctica sin riesgos.",
+  "Alfabetización financiera para důchodce: optimización presupuestos familiares sin garantías.",
+  "Recursos educativos de finanzas en pensión. Cómo ahorrar responsablemente sin hype.",
+  "Finanzas para jubilados: planificación de gastos y presupuesto sin promesas de ganancias.",
+  "Aprende control presupuestos pensionados. Materiales educativos sin especulaciones.",
+  "Presupuesto familiar jubilados: consejos de ahorro y optimización sin exageraciones.",
+  "Estrategias responsables para pensión: educación financiera sobre gastos diarios.",
 ];
 
 export function getMeta(index = 0) {
