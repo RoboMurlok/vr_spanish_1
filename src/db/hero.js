@@ -18,36 +18,7 @@ export const rawText = [
     subtitle:
       "Explora consejos y herramientas que te ayudarán a gestionar tu dinero de manera efectiva.",
   },
-  {
-    title: "Optimiza tus recursos y maximiza tu bienestar",
-    subtitle:
-      "Descubre cómo organizar tu presupuesto y tomar decisiones financieras responsables.",
-  },
-  {
-    title: "Finanzas personales simplificadas",
-    subtitle:
-      "Aprende a controlar tus ingresos y gastos con estrategias prácticas y fáciles de aplicar.",
-  },
-  {
-    title: "Invierte en tu tranquilidad económica",
-    subtitle:
-      "Conoce técnicas de ahorro e inversión que protegen tu capital y fomentan estabilidad financiera.",
-  },
-  {
-    title: "Planificación financiera para todos",
-    subtitle:
-      "Obtén herramientas y consejos útiles para alcanzar tus metas financieras de manera segura.",
-  },
-  {
-    title: "Seguridad financiera para tu familia",
-    subtitle:
-      "Aprende a gestionar recursos y planificar el futuro económico de tus seres queridos.",
-  },
-  {
-    title: "Mejora tu educación financiera",
-    subtitle:
-      "Descubre hábitos y estrategias que fortalecen tu manejo del dinero y tu independencia económica.",
-  },
+
   {
     title: "Decide con claridad y confianza",
     subtitle:
@@ -244,8 +215,6 @@ export const rawText = [
 //   }
 // ];
 
-
-
 // const arrHero = [
 //   {
 //     title: "Transformez votre avenir financier dès aujourd'hui",
@@ -281,7 +250,7 @@ export const rawText = [
 
 export const text = rawText.map((post, index) => ({
   ...post,
-  image: getUniqueImages(seed, 20)[index],
+  image: getUniqueImages(seed, 50)[index],
 }));
 
 export const battonText = { text_1: "Nuestros servicios", text_2: "Consulta" };

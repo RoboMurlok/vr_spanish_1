@@ -1,20 +1,20 @@
 [
   {
-    "name": "Elena Ruiz",
-    "role": "Arquitecta",
-    "text": "Ahora entiendo cómo funciona la inversión y cómo puedo hacer crecer mi dinero con seguridad.",
-    "avatar": "https://i.pravatar.cc/100?img=39"
+    "name": "Isabel Torres",
+    "role": "Chef",
+    "text": "Gracias a la consultoría, puedo planificar mis compras y optimizar mi presupuesto familiar.",
+    "avatar": "https://i.pravatar.cc/100?img=45"
   },
   {
-    "name": "Juan Pérez",
-    "role": "Empresario",
-    "text": "La consultoría financiera me ayudó a organizar mis gastos y aumentar mis ahorros en pocos meses.",
-    "avatar": "https://i.pravatar.cc/100?img=12"
+    "name": "Carlos García",
+    "role": "Emprendedor",
+    "text": "Gracias al plan de inversión recomendado, logré mejorar el rendimiento de mi negocio.",
+    "avatar": "https://i.pravatar.cc/100?img=7"
   },
   {
-    "name": "María López",
-    "role": "Profesora",
-    "text": "Gracias a la asesoría financiera pude planificar mejor mi presupuesto mensual y reducir mis deudas.",
-    "avatar": "https://i.pravatar.cc/100?img=15"
+    "name": "Miguel Sánchez",
+    "role": "Médico",
+    "text": "La planificación financiera me ayudó a asegurar un ahorro constante para emergencias.",
+    "avatar": "https://i.pravatar.cc/100?img=36"
   }
 ]

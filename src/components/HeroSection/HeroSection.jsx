@@ -3,6 +3,7 @@ import randomHero from "../../heroRandom.json";
 
 export default function HeroSection() {
   const { title, subtitle, image } = randomHero[0];
+console.log(randomHero);
 
   return (
     <section id="hero" className="hero container">

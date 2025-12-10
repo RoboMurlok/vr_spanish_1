@@ -4,24 +4,6 @@ import { seed } from "../../seed.js";
 
 const rawPosts = [
   {
-    title: "Estrategias financieras para emprendedores modernos",
-    excerpt:
-      "Descubre cómo organizar tus finanzas y mejorar la planificación de tu negocio.",
-    slug: "finanzas-emprendedores",
-    content: [
-      "Para los emprendedores, mantener finanzas ordenadas es clave para mejorar la planificación financiera a largo plazo. Elaborar un plan detallado, asignar presupuesto para inversiones y revisar periódicamente ingresos y gastos permite tomar decisiones informadas y reducir riesgos. Además, diversificar las fuentes de ingreso y establecer metas claras, medibles y alcanzables ayuda a mantener mayor estabilidad económica y facilita la gestión responsable de los recursos financieros.",
-    ],
-  },
-  {
-    title: "Técnicas seguras para ahorrar e invertir de manera responsable",
-    excerpt:
-      "Aprende métodos para aumentar tus ahorros y gestionar inversiones de forma responsable.",
-    slug: "ahorro-inversion",
-    content: [
-      "Ahorrar e invertir requiere disciplina y planificación. Antes de destinar dinero a inversiones, es recomendable crear un fondo de emergencia que cubra varios meses de gastos esenciales. Diversificar las inversiones en diferentes instrumentos financieros permite reducir riesgos. Revisar periódicamente las metas y ajustar las estrategias según cambios del mercado o necesidades personales ayuda a gestionar el patrimonio de manera responsable y contribuye a una mayor estabilidad financiera.",
-    ],
-  },
-  {
     title: "Guía práctica para crear un presupuesto personal sostenible",
     excerpt:
       "Organiza tus ingresos y gastos para mejorar la gestión de tus finanzas personales.",
@@ -115,24 +97,6 @@ const rawPosts = [
     ],
   },
   {
-    title: "Cómo planificar inversiones de manera prudente y segura",
-    excerpt:
-      "Aprende a invertir de forma responsable para proteger tu patrimonio.",
-    slug: "planificacion-inversiones",
-    content: [
-      "Planificar inversiones requiere conocimiento y enfoque responsable. Antes de invertir, es recomendable informarse sobre los distintos instrumentos financieros y los riesgos asociados a cada uno. Invertir solo dinero que no se necesite a corto plazo y diversificar las inversiones contribuye a reducir riesgos. Revisar periódicamente el rendimiento de la cartera y mantener decisiones basadas en análisis y prudencia permite proteger el patrimonio y gestionar los recursos financieros de manera segura y sostenible.",
-    ],
-  },
-  {
-    title: "Consejos para mantener un historial crediticio saludable",
-    excerpt:
-      "Aprende a gestionar deudas y créditos para conservar un buen historial financiero.",
-    slug: "historial-crediticio",
-    content: [
-      "Mantener un historial crediticio saludable es clave para acceder a productos financieros de manera responsable. Pagar deudas y cuotas a tiempo, evitar sobreendeudamiento y mantener un control regular de las obligaciones ayuda a preservar la confianza de las entidades financieras. Planificar los gastos y las compras a crédito, así como revisar periódicamente el estado del crédito, permite tomar decisiones informadas y mantener la estabilidad financiera personal sin comprometer el bienestar económico.",
-    ],
-  },
-  {
     title: "Planificación financiera para emprendedores y autónomos",
     excerpt:
       "Recomendaciones para organizar ingresos, gastos e inversiones de manera responsable.",
@@ -205,61 +169,6 @@ const rawPosts = [
     ],
   },
   {
-    title: "Planificación financiera efectiva para emprendedores y negocios",
-    excerpt:
-      "Aprende a estructurar tus finanzas para asegurar un crecimiento sostenible.",
-    slug: "planificacion-financiera-emprendedores",
-    content: [
-      "Los emprendedores necesitan un plan financiero sólido que incluya inversiones, control de gastos y análisis regular de ingresos. Definir objetivos claros y medibles facilita la toma de decisiones estratégicas y reduce riesgos, permitiendo que los negocios crezcan de manera organizada y sostenible.",
-    ],
-  },
-  {
-    title: "Cómo invertir de manera responsable y segura tus ahorros",
-    excerpt:
-      "Descubre métodos de inversión que protejan tu patrimonio sin riesgos excesivos.",
-    slug: "inversion-responsable",
-    content: [
-      "Invertir requiere planificación y conocimiento de los instrumentos financieros disponibles. Diversificar las inversiones, revisar periódicamente los resultados y mantener un fondo de reserva contribuye a proteger el capital y aprovechar oportunidades de manera prudente, evitando decisiones impulsivas o riesgos innecesarios.",
-    ],
-  },
-  {
-    title:
-      "Técnicas modernas para controlar deudas y mejorar tu historial crediticio",
-    excerpt: "Aprende a gestionar tus deudas de manera eficiente y sin estrés.",
-    slug: "control-deudas",
-    content: [
-      "Gestionar deudas implica priorizar pagos con intereses más altos y negociar condiciones favorables con los acreedores. Evitar adquirir nuevas deudas y revisar periódicamente la situación financiera permite reducir estrés y mantener un historial crediticio saludable, asegurando estabilidad económica a largo plazo.",
-    ],
-  },
-  {
-    title: "Métodos de planificación financiera para asegurar tu jubilación",
-    excerpt:
-      "Conoce cómo organizar tus ahorros y pensiones para un retiro seguro.",
-    slug: "planificacion-jubilacion",
-    content: [
-      "Prepararse para la jubilación requiere establecer metas de ahorro y combinar planes de pensiones públicos y privados. Revisar periódicamente los aportes y ajustarlos según los cambios de ingresos garantiza que los recursos estén disponibles cuando se necesiten, proporcionando seguridad y tranquilidad financiera.",
-    ],
-  },
-  {
-    title: "Importancia de los seguros para proteger tu patrimonio y familia",
-    excerpt:
-      "Descubre cómo los seguros contribuyen a la estabilidad financiera personal.",
-    slug: "seguros-patrimonio-familia",
-    content: [
-      "Los seguros son esenciales para proteger bienes, salud y la estabilidad familiar ante imprevistos. Evaluar las coberturas necesarias y planificar los pagos dentro del presupuesto mensual asegura que siempre estén vigentes, evitando comprometer la seguridad económica y garantizando tranquilidad ante eventos inesperados.",
-    ],
-  },
-  {
-    title:
-      "Educación financiera para jóvenes: hábitos que fortalecen tu futuro",
-    excerpt:
-      "Inicia a los jóvenes en la gestión responsable de sus recursos económicos.",
-    slug: "educacion-financiera-jovenes",
-    content: [
-      "Enseñar a los jóvenes a gestionar sus finanzas desarrolla hábitos responsables y conscientes. Introducir conceptos de ahorro, inversión y presupuesto fomenta autonomía y permite que tomen decisiones informadas, evitando problemas financieros y preparando un futuro más seguro y organizado.",
-    ],
-  },
-  {
     title:
       "Estrategias de ahorro y planificación para profesionales independientes",
     excerpt:
@@ -320,33 +229,7 @@ const rawPosts = [
       "Gestionar deudas requiere priorizar pagos, negociar condiciones favorables y evitar generar nuevas obligaciones innecesarias. Mantener un registro actualizado de deudas y revisar periódicamente la situación financiera permite reducir estrés, mejorar el historial crediticio y conservar estabilidad económica de manera sostenible.",
     ],
   },
-  {
-    title: "Educación financiera: habilidades clave para jóvenes responsables",
-    excerpt:
-      "Inicia a los jóvenes en hábitos financieros positivos desde temprano.",
-    slug: "educacion-financiera-habitos",
-    content: [
-      "Enseñar a los jóvenes a gestionar sus finanzas desarrolla hábitos responsables y autonomía. Introducir conceptos de ahorro, presupuesto e inversión fomenta la toma de decisiones conscientes y prepara para el manejo adecuado del dinero, evitando problemas financieros futuros y asegurando un control económico sólido.",
-    ],
-  },
-  {
-    title: "Cómo diversificar ingresos y mejorar la estabilidad económica",
-    excerpt:
-      "Aprende a generar varias fuentes de ingresos para mayor seguridad.",
-    slug: "diversificacion-ingresos",
-    content: [
-      "Tener múltiples fuentes de ingresos ayuda a reducir riesgos financieros y mejorar la estabilidad económica. Planificar actividades secundarias, evaluar oportunidades de inversión y organizar los recursos de manera eficiente permite incrementar el patrimonio sin depender exclusivamente de un solo ingreso, promoviendo independencia económica.",
-    ],
-  },
-  {
-    title: "Planificación financiera para pequeñas y medianas empresas",
-    excerpt:
-      "Estrategias para organizar recursos y asegurar crecimiento sostenible.",
-    slug: "planificacion-pymes",
-    content: [
-      "Las PYMES necesitan un plan financiero claro que contemple presupuestos, inversiones y control de gastos. Revisar regularmente ingresos y gastos, establecer objetivos alcanzables y mantener reservas permite tomar decisiones informadas, reducir riesgos y garantizar un crecimiento estable del negocio a largo plazo.",
-    ],
-  },
+
   {
     title: "Cómo establecer un fondo de emergencia sólido y confiable",
     excerpt: "Aprende a proteger tus finanzas ante imprevistos.",
@@ -399,61 +282,6 @@ const rawPosts = [
     slug: "planificacion-fiscal-autonomos",
     content: [
       "Los autónomos deben planificar sus impuestos y finanzas para evitar problemas legales y económicos. Mantener registros claros, separar fondos para impuestos y revisar periódicamente la situación financiera permite cumplir obligaciones fiscales y mantener estabilidad, evitando sorpresas desagradables al final del año.",
-    ],
-  },
-  {
-    title: "Cómo crear un presupuesto personal flexible y sostenible",
-    excerpt:
-      "Aprende a organizar tus finanzas sin comprometer tus necesidades.",
-    slug: "presupuesto-personal-flexible",
-    content: [
-      "Un presupuesto flexible permite controlar gastos e ingresos sin afectar necesidades diarias. Registrar todos los movimientos, establecer prioridades y ajustar según metas financieras ayuda a tomar decisiones conscientes, mantener disciplina y lograr estabilidad económica sin generar estrés innecesario.",
-    ],
-  },
-  {
-    title: "Técnicas para ahorrar dinero de manera inteligente y responsable",
-    excerpt: "Descubre hábitos de ahorro que fortalecen tu economía personal.",
-    slug: "ahorro-inteligente",
-    content: [
-      "Ahorrar de forma responsable requiere disciplina y planificación. Separar una parte de los ingresos, priorizar gastos esenciales y crear metas alcanzables contribuye a mejorar la estabilidad económica. Revisar periódicamente los hábitos financieros permite optimizar recursos y construir un patrimonio sólido a largo plazo.",
-    ],
-  },
-  {
-    title: "Cómo diversificar inversiones y minimizar riesgos financieros",
-    excerpt: "Aprende a proteger tu capital mientras haces crecer tus ahorros.",
-    slug: "diversificacion-riesgos",
-    content: [
-      "Diversificar inversiones ayuda a reducir riesgos y proteger el capital. Evaluar opciones de inversión, ajustar estrategias según cambios de mercado y mantener un fondo de emergencia contribuye a un crecimiento sostenido del patrimonio, asegurando que los objetivos financieros se cumplan de manera segura y eficiente.",
-    ],
-  },
-  {
-    title:
-      "Planificación financiera para parejas: cómo gestionar dinero en conjunto",
-    excerpt:
-      "Descubre estrategias para armonizar finanzas y metas compartidas.",
-    slug: "finanzas-parejas",
-    content: [
-      "Gestionar las finanzas en pareja requiere comunicación y planificación. Crear un presupuesto conjunto, definir metas de ahorro y revisar periódicamente gastos permite equilibrar prioridades individuales y familiares, promoviendo estabilidad económica y reduciendo conflictos relacionados con el dinero.",
-    ],
-  },
-  {
-    title:
-      "Cómo establecer metas financieras claras y alcanzables a corto plazo",
-    excerpt:
-      "Aprende a definir objetivos que impulsen tu estabilidad económica.",
-    slug: "metas-financieras-corto-plazo",
-    content: [
-      "Definir metas financieras claras y alcanzables permite planificar de manera efectiva. Establecer prioridades, medir avances y ajustar estrategias según necesidades personales ayuda a tomar decisiones informadas, mejorar la disciplina económica y mantener control sobre el crecimiento del patrimonio.",
-    ],
-  },
-  {
-    title:
-      "Estrategias para gestionar gastos imprevistos y proteger tus ahorros",
-    excerpt:
-      "Aprende a enfrentar emergencias financieras sin comprometer estabilidad.",
-    slug: "gestion-gastos-imprevistos",
-    content: [
-      "Los gastos imprevistos pueden afectar la estabilidad financiera si no se planifican. Crear un fondo de emergencia, priorizar pagos y revisar periódicamente el presupuesto permite enfrentar situaciones inesperadas, proteger los ahorros y mantener control sobre las finanzas personales de manera segura.",
     ],
   },
 ];

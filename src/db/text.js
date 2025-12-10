@@ -265,5 +265,5 @@ import { seed } from "../../seed.js";
 
 export const text = rawText.map((post, index) => ({
   ...post,
-  image: getUniqueImages(seed, 20)[index],
+  image: getUniqueImages(seed, 50)[index],
 }));
