@@ -8,7 +8,15 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen(!isOpen);
 
-  const brendName = siteName[buildCount].split(".")[0];
+  // const brendName = siteName[buildCount].split(".")[0];
+
+    let brendName = "";
+
+    if (buildCount > siteName.length) {
+      brendName = "";
+    } else {
+      brendName = siteName[buildCount].split(".")[0];
+    }
 
   return (
     <nav className="navbar container">

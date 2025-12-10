@@ -1,1 +1,1 @@
-export const siteName = ["123.fr","456.fr","789.fr"];
+export const siteName = ["test_1","test_2","test_3"];

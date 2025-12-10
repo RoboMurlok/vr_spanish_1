@@ -1,20 +1,20 @@
 [
   {
     "name": "María López",
-    "role": "Professionnelle indépendante",
-    "text": "Excellente consultation, très claire et personnalisée selon mes objectifs financiers.",
+    "role": "Profesional independiente",
+    "text": "Excelente asesoría, muy clara y personalizada según mis objetivos financieros.",
     "avatar": "https://i.pravatar.cc/100?img=5"
   },
   {
-    "name": "Luis Fernández",
-    "role": "Avocat",
-    "text": "Ils m'ont appris à diversifier mes investissements et à protéger mon patrimoine.",
-    "avatar": "https://i.pravatar.cc/100?img=24"
+    "name": "Fernando Gómez",
+    "role": "Empresario",
+    "text": "Ahora tengo claridad sobre mis finanzas y puedo invertir con confianza en nuevos proyectos.",
+    "avatar": "https://i.pravatar.cc/100?img=48"
   },
   {
-    "name": "Carlos García",
-    "role": "Entrepreneur",
-    "text": "Grâce au plan d'investissement recommandé, j'ai pu améliorer les performances de mon activité.",
-    "avatar": "https://i.pravatar.cc/100?img=7"
+    "name": "Jorge Torres",
+    "role": "Consultor",
+    "text": "El asesoramiento financiero me permitió optimizar mis ingresos y planificar mi futuro.",
+    "avatar": "https://i.pravatar.cc/100?img=30"
   }
 ]
