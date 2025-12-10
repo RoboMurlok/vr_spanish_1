@@ -1,13 +1,9 @@
-const links = [
-  { text: "Política de privacidad", href: "#" },
-  { text: "Términos de uso", href: "#" },
-  { text: "Contacto", href: "#" },
-];
+import { links, text } from "../../db/footer";
 
 export default function Footer() {
   return (
     <footer className="footer container">
-      <p>© 2025 Consultoría Financiera. Todos los derechos reservados.</p>
+        <p>{text}</p>
       <ul className="footer-links">
         {links.map((link, index) => (
           <li key={index}>

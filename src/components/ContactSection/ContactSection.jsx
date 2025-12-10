@@ -1,16 +1,17 @@
 import React, { useState } from "react";
+import { text, battonText } from "../../db/contacts";
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    message: ""
+    message: "",
   });
 
   const handleChange = (e) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
   };
 
@@ -23,10 +24,9 @@ export default function ContactSection() {
 
   return (
     <section id="contact" className="container contact-cta">
-      <h2 className="section-title">¿Listo para mejorar tu futuro financiero?</h2>
-      <p className="section-sub">
-        Deja tu solicitud y nos pondremos en contacto para discutir metas, estrategias y primeros pasos.
-      </p>
+      <h2 className="section-title">{text.title}</h2>
+      <p className="section-sub">{text.subtitle}</p>
+
       <form className="contact-form" onSubmit={handleSubmit}>
         <div className="form-group">
           <input
@@ -58,7 +58,7 @@ export default function ContactSection() {
           ></textarea>
         </div>
         <button type="submit" className="contact-btn">
-          Enviar solicitud
+          {battonText}
         </button>
       </form>
     </section>

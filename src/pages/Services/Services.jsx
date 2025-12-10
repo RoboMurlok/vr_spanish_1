@@ -5,7 +5,7 @@ import TextSection from "../../components/TextSection/TextSection";
 
 export default function Services() {
   return (
-    <div className="services">
+    <div className="container">
       <BannerSection />
       <ServicesSection />
       <TextSection />

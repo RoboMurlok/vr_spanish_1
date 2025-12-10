@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { battonText } from "../../db/blog";
 import randomPosts from "../../blogRandom.json";
 
 export default function BlogSection() {
@@ -9,12 +10,16 @@ export default function BlogSection() {
         {randomPosts.map((article, index) => (
           <li key={index} className="card">
             <div className="blog-img-placeholder">
-              <img src={article.image} alt={article.title} className="post-image" />
+              <img
+                src={article.image}
+                alt={article.title}
+                className="post-image"
+              />
             </div>
             <h3 className="card-title">{article.title}</h3>
             <p className="card-desc">{article.excerpt}</p>
             <Link to={`/blog/${article.slug}`} className="card-cta">
-              Leer más
+              {battonText}
             </Link>
           </li>
         ))}

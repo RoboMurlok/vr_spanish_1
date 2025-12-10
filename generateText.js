@@ -43,5 +43,5 @@ fs.writeFileSync(outputPath, JSON.stringify(selected, null, 2));
 
 console.log(
   `text generated (3 text) with seed ${seed}:`,
-  selected.map((p) => p.name)
+  selected.map((p) => p.title)
 );

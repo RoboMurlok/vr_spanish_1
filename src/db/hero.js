@@ -141,7 +141,145 @@ const arrHero = [
   },
 ];
 
+// итальянский
+
+// const arrHero = [
+//   {
+//     title: "Trasforma il tuo futuro finanziario oggi",
+//     subtitle:
+//       "Scopri strategie intelligenti per organizzare le tue finanze e prendere decisioni sicure.",
+//   },
+//   {
+//     title: "Pianifica, risparmia e investi con fiducia",
+//     subtitle:
+//       "Impara metodi pratici per proteggere il tuo patrimonio e assicurare stabilità economica.",
+//   },
+//   {
+//     title: "La tua guida verso la libertà finanziaria",
+//     subtitle:
+//       "Esplora consigli e strumenti che ti aiuteranno a gestire il denaro in modo efficace.",
+//   },
+//   {
+//     title: "Ottimizza le tue risorse e massimizza il benessere",
+//     subtitle:
+//       "Scopri come organizzare il tuo budget e prendere decisioni finanziarie responsabili.",
+//   },
+//   {
+//     title: "Finanze personali semplificate",
+//     subtitle:
+//       "Impara a controllare entrate e spese con strategie pratiche e facili da applicare.",
+//   },
+//   {
+//     title: "Investi nella tua tranquillità economica",
+//     subtitle:
+//       "Scopri tecniche di risparmio e investimento che proteggono il capitale e favoriscono stabilità finanziaria.",
+//   },
+//   {
+//     title: "Pianificazione finanziaria per tutti",
+//     subtitle:
+//       "Ottieni strumenti e consigli utili per raggiungere i tuoi obiettivi finanziari in sicurezza.",
+//   },
+//   {
+//     title: "Sicurezza finanziaria per la tua famiglia",
+//     subtitle:
+//       "Impara a gestire le risorse e pianificare il futuro economico dei tuoi cari.",
+//   },
+//   {
+//     title: "Migliora la tua educazione finanziaria",
+//     subtitle:
+//       "Scopri abitudini e strategie che rafforzano la gestione del denaro e l’indipendenza economica.",
+//   },
+//   {
+//     title: "Decidi con chiarezza e fiducia",
+//     subtitle:
+//       "Impara a strutturare il tuo budget e prendere decisioni finanziarie intelligenti ogni giorno.",
+//   },
+//   {
+//     title: "Ottimizza la tua pensione ora",
+//     subtitle:
+//       "Scopri come risparmiare per la pensione con una pianificazione del budget per pensionati.",
+//   },
+//   {
+//     title: "Controlla le spese in pensione",
+//     subtitle:
+//       "Strategie semplici per pensionati: organizza il tuo budget familiare in modo efficace.",
+//   },
+//   {
+//     title: "Pianifica una pensione sicura",
+//     subtitle:
+//       "Consulenze finanziarie per pensionati: impara a controllare le spese quotidiane.",
+//   },
+//   {
+//     title: "Risparmia di più sulla tua pensione",
+//     subtitle: "Ottimizza le spese familiari con consigli pratici per pensionati.",
+//   },
+//   {
+//     title: "Bilancio perfetto per pensionati",
+//     subtitle:
+//       "Come risparmiare in pensione tramite pianificazione intelligente e controllo.",
+//   },
+//   {
+//     title: "Finanze chiare in pensione",
+//     subtitle:
+//       "Scopri consulenze per pensionati: gestisci il budget familiare.",
+//   },
+//   {
+//     title: "Trasforma le spese in pensione",
+//     subtitle: "Strategie di risparmio e ottimizzazione per la tua pensione quotidiana.",
+//   },
+//   {
+//     title: "Equilibra la tua economia pensionistica",
+//     subtitle:
+//       "Pianificazione del budget: controllo delle spese per pensionati e famiglie.",
+//   },
+//   {
+//     title: "Migliora il controllo finanziario",
+//     subtitle: "Consulenze per pensionati: risparmia in pensione con facilità.",
+//   },
+//   {
+//     title: "Organizza la pensione familiare",
+//     subtitle: "Scopri come ottimizzare spese e budget per pensionati.",
+//   }
+// ];
+
+
+
+// const arrHero = [
+//   {
+//     title: "Transformez votre avenir financier dès aujourd'hui",
+//     subtitle:
+//       "Découvrez des stratégies intelligentes pour organiser vos finances et prendre des décisions sûres.",
+//   },
+//   {
+//     title: "Planifiez, économisez et investissez en toute confiance",
+//     subtitle:
+//       "Apprenez des méthodes pratiques pour protéger votre patrimoine et assurer une stabilité économique.",
+//   },
+//   {
+//     title: "Votre guide vers la liberté financière",
+//     subtitle:
+//       "Explorez des conseils et des outils qui vous aideront à gérer l'argent efficacement.",
+//   },
+//   {
+//     title: "Optimisez vos ressources et maximisez le bien-être",
+//     subtitle:
+//       "Découvrez comment organiser votre budget et prendre des décisions financières responsables.",
+//   },
+//   {
+//     title: "Finances personnelles simplifiées",
+//     subtitle:
+//       "Apprenez à contrôler vos revenus et dépenses avec des stratégies pratiques et faciles à appliquer.",
+//   },
+//   {
+//     title: "Investissez dans votre tranquillité économique",
+//     subtitle:
+//       "Découvrez des techniques d'épargne et d'investissement qui protègent le capital et favorisent la stabilité financière.",
+//   },
+// ];
+
 export function getHero(index = 0) {
   const heroIndex = (seed * 7 + index * 13) % arrHero.length;
   return arrHero[heroIndex];
 }
+
+export const battonText = { text_1: "Nuestros servicios", text_2: "Consulta" };

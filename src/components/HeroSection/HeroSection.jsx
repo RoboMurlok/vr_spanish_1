@@ -1,6 +1,6 @@
 import { getUniqueImages } from "../../db/images";
 import { seed } from "../../../seed";
-import { getHero } from "../../db/hero";
+import { getHero, battonText } from "../../db/hero";
 
 export default function HeroSection() {
   const image = getUniqueImages(seed, 6);
@@ -21,7 +21,7 @@ export default function HeroSection() {
                 ?.scrollIntoView({ behavior: "smooth" });
             }}
           >
-            Nuestros servicios
+            {battonText.text_1}
           </a>
           <a
             href="#/#contact"
@@ -32,7 +32,7 @@ export default function HeroSection() {
                 ?.scrollIntoView({ behavior: "smooth" });
             }}
           >
-            Consulta
+            {battonText.text_2}
           </a>
         </div>
       </div>

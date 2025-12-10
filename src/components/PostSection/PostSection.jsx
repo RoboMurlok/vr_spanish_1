@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import { posts } from "../../db/posts.js";
+import { posts, text, battonText } from "../../db/posts.js";
 
 export default function PostSection() {
   const { slug } = useParams();
@@ -9,10 +9,8 @@ export default function PostSection() {
     return (
       <section className="post-section">
         <div className="container">
-          <h1 className="post-title">Artículo no encontrado</h1>
-          <p className="post-sub">
-            Lo sentimos, el artículo que buscas no existe.
-          </p>
+          <h1 className="post-title">{text.title}</h1>
+          <p className="post-sub">{text.subtitle}</p>
         </div>
       </section>
     );
@@ -34,7 +32,7 @@ export default function PostSection() {
           ))}
           <div className="post-sub">
             <Link to="/blog" className="card-cta">
-              Nuestros servicios
+              {battonText}
             </Link>
           </div>
         </div>

@@ -90,3 +90,95 @@ export const reviews = [
     avatar: "https://i.pravatar.cc/100?img=48",
   },
 ];
+
+// итальянский
+// export const reviews = [
+//   {
+//     name: "Juan Pérez",
+//     role: "Imprenditore",
+//     text: "La consulenza finanziaria mi ha aiutato a organizzare le mie spese e aumentare i risparmi in pochi mesi.",
+//     avatar: "https://i.pravatar.cc/100?img=12",
+//   },
+//   {
+//     name: "María López",
+//     role: "Libera professionista",
+//     text: "Eccellente consulenza, molto chiara e personalizzata secondo i miei obiettivi finanziari.",
+//     avatar: "https://i.pravatar.cc/100?img=5",
+//   },
+//   {
+//     name: "Carlos García",
+//     role: "Imprenditore",
+//     text: "Grazie al piano di investimento raccomandato, sono riuscito a migliorare le performance della mia attività.",
+//     avatar: "https://i.pravatar.cc/100?img=7",
+//   },
+//   {
+//     name: "María López",
+//     role: "Insegnante",
+//     text: "Grazie alla consulenza finanziaria, ho potuto pianificare meglio il mio budget mensile e ridurre i debiti.",
+//     avatar: "https://i.pravatar.cc/100?img=15",
+//   },
+//   {
+//     name: "Carlos Ramírez",
+//     role: "Ingegnere",
+//     text: "Ho imparato a investire in modo intelligente e ora i miei risparmi generano un rendimento costante.",
+//     avatar: "https://i.pravatar.cc/100?img=18",
+//   },
+//   {
+//     name: "Ana García",
+//     role: "Imprenditrice",
+//     text: "La consulenza mi ha fornito strumenti per prendere decisioni finanziarie sicure per la mia attività.",
+//     avatar: "https://i.pravatar.cc/100?img=21",
+//   },
+//   {
+//     name: "Luis Fernández",
+//     role: "Avvocato",
+//     text: "Mi hanno insegnato a diversificare i miei investimenti e proteggere il mio patrimonio.",
+//     avatar: "https://i.pravatar.cc/100?img=24",
+//   },
+// ];
+
+
+// export const reviews = [
+//   {
+//     name: "Juan Pérez",
+//     role: "Entrepreneur",
+//     text: "Le conseil financier m'a aidé à organiser mes dépenses et à augmenter mes économies en quelques mois.",
+//     avatar: "https://i.pravatar.cc/100?img=12",
+//   },
+//   {
+//     name: "María López",
+//     role: "Professionnelle indépendante",
+//     text: "Excellente consultation, très claire et personnalisée selon mes objectifs financiers.",
+//     avatar: "https://i.pravatar.cc/100?img=5",
+//   },
+//   {
+//     name: "Carlos García",
+//     role: "Entrepreneur",
+//     text: "Grâce au plan d'investissement recommandé, j'ai pu améliorer les performances de mon activité.",
+//     avatar: "https://i.pravatar.cc/100?img=7",
+//   },
+//   {
+//     name: "María López",
+//     role: "Enseignante",
+//     text: "Grâce au conseil financier, j'ai pu mieux planifier mon budget mensuel et réduire mes dettes.",
+//     avatar: "https://i.pravatar.cc/100?img=15",
+//   },
+//   {
+//     name: "Carlos Ramírez",
+//     role: "Ingénieur",
+//     text: "J'ai appris à investir intelligemment et maintenant mes économies génèrent un rendement constant.",
+//     avatar: "https://i.pravatar.cc/100?img=18",
+//   },
+//   {
+//     name: "Ana García",
+//     role: "Entrepreneuse",
+//     text: "Le conseil m'a fourni des outils pour prendre des décisions financières sûres pour mon activité.",
+//     avatar: "https://i.pravatar.cc/100?img=21",
+//   },
+//   {
+//     name: "Luis Fernández",
+//     role: "Avocat",
+//     text: "Ils m'ont appris à diversifier mes investissements et à protéger mon patrimoine.",
+//     avatar: "https://i.pravatar.cc/100?img=24",
+//   },
+// ];

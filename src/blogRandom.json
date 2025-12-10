@@ -1,56 +1,83 @@
 [
   {
-    "title": "Planificación financiera efectiva para emprendedores y negocios",
-    "excerpt": "Aprende a estructurar tus finanzas para asegurar un crecimiento sostenible.",
-    "slug": "planificacion-financiera-emprendedores",
-    "content": [
-      "Los emprendedores necesitan un plan financiero sólido que incluya inversiones, control de gastos y análisis regular de ingresos. Definir objetivos claros y medibles facilita la toma de decisiones estratégicas y reduce riesgos, permitiendo que los negocios crezcan de manera organizada y sostenible."
-    ],
-    "image": "https://images.pexels.com/photos/3184350/pexels-photo-3184350.jpeg?auto=compress&cs=tinysrgb&w=1200"
-  },
-  {
-    "title": "Estrategias inteligentes para ahorrar sin afectar tu vida diaria",
-    "excerpt": "Descubre métodos de ahorro prácticos y sostenibles.",
-    "slug": "estrategias-ahorro-practicas",
-    "content": [
-      "Ahorrar requiere disciplina y planificación, pero no significa sacrificar calidad de vida. Establecer un presupuesto realista, separar fondos para emergencias y revisar periódicamente los gastos permite mantener un equilibrio entre ahorro y necesidades, promoviendo estabilidad financiera a largo plazo."
-    ],
-    "image": "https://images.pexels.com/photos/3183172/pexels-photo-3183172.jpeg?auto=compress&cs=tinysrgb&w=1200"
-  },
-  {
-    "title": "Estrategias para mejorar la planificación financiera familiar",
-    "excerpt": "Recomendaciones para organizar ingresos, gastos y ahorros en el hogar.",
-    "slug": "planificacion-familiar",
-    "content": [
-      "La planificación financiera familiar ayuda a mantener estabilidad y control sobre los recursos. Crear un presupuesto que contemple ingresos, gastos y ahorros permite tomar decisiones informadas y priorizar necesidades. Establecer metas claras, revisar regularmente la situación financiera y educar a los miembros de la familia sobre la gestión del dinero fomenta hábitos responsables. Planificar con antelación para gastos importantes como educación, vivienda o salud contribuye a la seguridad económica y reduce riesgos de imprevistos."
-    ],
-    "image": "https://images.pexels.com/photos/3182826/pexels-photo-3182826.jpeg?auto=compress&cs=tinysrgb&w=1200"
-  },
-  {
-    "title": "Cómo evaluar y elegir seguros adecuados para proteger tu patrimonio",
-    "excerpt": "Descubre la importancia de los seguros en la planificación financiera.",
-    "slug": "evaluacion-seguros",
-    "content": [
-      "Seleccionar seguros adecuados protege bienes y familia ante eventualidades. Analizar coberturas disponibles, evaluar necesidades reales y planificar pagos dentro del presupuesto garantiza que siempre estén vigentes, evitando comprometer la estabilidad financiera y brindando tranquilidad frente a situaciones inesperadas."
-    ],
-    "image": "https://images.pexels.com/photos/3184408/pexels-photo-3184408.jpeg?auto=compress&cs=tinysrgb&w=1200"
-  },
-  {
-    "title": "Estrategias financieras para emprendedores modernos",
-    "excerpt": "Descubre cómo organizar tus finanzas y mejorar la planificación de tu negocio.",
+    "title": "Stratégies financières pour les entrepreneurs modernes",
+    "excerpt": "Découvrez comment organiser vos finances et améliorer la planification de votre activité.",
     "slug": "finanzas-emprendedores",
     "content": [
-      "Para los emprendedores, mantener finanzas ordenadas es clave para mejorar la planificación financiera a largo plazo. Elaborar un plan detallado, asignar presupuesto para inversiones y revisar periódicamente ingresos y gastos permite tomar decisiones informadas y reducir riesgos. Además, diversificar las fuentes de ingreso y establecer metas claras, medibles y alcanzables ayuda a mantener mayor estabilidad económica y facilita la gestión responsable de los recursos financieros."
+      "Pour les entrepreneurs, maintenir des finances organisées est essentiel pour améliorer la planification financière à long terme. Élaborer un plan détaillé, allouer un budget pour les investissements et revoir périodiquement les revenus et dépenses permet de prendre des décisions éclairées et de réduire les risques. De plus, diversifier les sources de revenus et établir des objectifs clairs, mesurables et atteignables aide à maintenir une plus grande stabilité économique et facilite la gestion responsable des ressources financières."
     ],
-    "image": "https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    "image": "https://images.pexels.com/photos/3184449/pexels-photo-3184449.jpeg?auto=compress&cs=tinysrgb&w=1200"
   },
   {
-    "title": "Cómo establecer metas financieras claras y alcanzables a corto plazo",
-    "excerpt": "Aprende a definir objetivos que impulsen tu estabilidad económica.",
-    "slug": "metas-financieras-corto-plazo",
+    "title": "Méthodes pratiques pour contrôler et réduire les dettes de manière responsable",
+    "excerpt": "Apprenez à gérer vos dettes de manière organisée et sécurisée.",
+    "slug": "gestion-deudas",
     "content": [
-      "Definir metas financieras claras y alcanzables permite planificar de manera efectiva. Establecer prioridades, medir avances y ajustar estrategias según necesidades personales ayuda a tomar decisiones informadas, mejorar la disciplina económica y mantener control sobre el crecimiento del patrimonio."
+      "Gérer les dettes de manière organisée est fondamental pour maintenir des finances saines. Prioriser le remboursement des dettes à taux d'intérêt élevé aide à réduire les coûts financiers. Négocier des conditions plus favorables avec les créanciers, comme des échéances plus longues ou des taux plus bas, peut alléger la charge. Éviter de contracter de nouvelles dettes inutiles tout en gérant celles existantes contribue à une plus grande stabilité. La combinaison de planification, discipline et stratégies responsables permet de maintenir un historique financier solide sans compromettre la sécurité économique personnelle."
     ],
-    "image": "https://images.pexels.com/photos/3184323/pexels-photo-3184323.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    "image": "https://images.pexels.com/photos/3184305/pexels-photo-3184305.jpeg?auto=compress&cs=tinysrgb&w=1200"
+  },
+  {
+    "title": "Éducation financière pour les jeunes et habitudes responsables de gestion de l'argent",
+    "excerpt": "Initiez les jeunes à la gestion consciente de leurs finances dès le plus jeune âge.",
+    "slug": "educacion-financiera-jovenes",
+    "content": [
+      "Enseigner l'éducation financière aux jeunes favorise des habitudes responsables et conscientes avec l'argent. Introduire les concepts d'épargne, de budget et de planification leur permet de comprendre l'importance de gérer les ressources. Expliquer le fonctionnement des investissements de base, du crédit responsable et des objectifs financiers aide à développer autonomie et confiance. Établir des exemples pratiques et des objectifs atteignables renforce la discipline financière, préparant les jeunes à prendre des décisions éclairées et responsables contribuant à la stabilité économique future."
+    ],
+    "image": "https://images.pexels.com/photos/3184364/pexels-photo-3184364.jpeg?auto=compress&cs=tinysrgb&w=1200"
+  },
+  {
+    "title": "Guide pratique pour créer un budget personnel durable",
+    "excerpt": "Organisez vos revenus et dépenses pour améliorer la gestion de vos finances personnelles.",
+    "slug": "presupuesto-personal",
+    "content": [
+      "Créer un budget personnel détaillé est essentiel pour garder le contrôle sur les ressources financières. Enregistrer tous les revenus et dépenses mensuels permet d'identifier les habitudes de consommation et les domaines où optimiser les dépenses. Classer les dépenses en essentielles et non essentielles aide à donner la priorité aux besoins. Adapter le budget en fonction des objectifs personnels et établir des objectifs d'épargne concrets génère de la discipline et permet de planifier des achats importants ou des investissements de manière responsable, sans compromettre la stabilité économique."
+    ],
+    "image": "https://images.pexels.com/photos/3184431/pexels-photo-3184431.jpeg?auto=compress&cs=tinysrgb&w=1200"
+  },
+  {
+    "title": "Initiation responsable aux investissements boursiers et planification financière",
+    "excerpt": "Découvrez comment commencer à investir et gérer votre patrimoine de manière responsable.",
+    "slug": "inversion-mercado-valores",
+    "content": [
+      "Investir en bourse nécessite connaissance et planification responsable. Avant de commencer, il est conseillé de s'informer sur les actions, obligations et fonds d'investissement, ainsi que sur les risques associés. Investir uniquement de l'argent non nécessaire à court terme et baser les décisions sur l'analyse aide à éviter les situations imprévues. Revoir périodiquement le portefeuille, diversifier les investissements et agir avec prudence permet de gérer le patrimoine de manière responsable et de profiter des opportunités financières en toute sécurité."
+    ],
+    "image": "https://images.pexels.com/photos/3184318/pexels-photo-3184318.jpeg?auto=compress&cs=tinysrgb&w=1200"
+  },
+  {
+    "title": "Conseils pratiques pour la gestion financière des familles",
+    "excerpt": "Recommandations pour gérer l'argent familial et promouvoir des habitudes financières responsables.",
+    "slug": "finanzas-familiares",
+    "content": [
+      "La planification financière familiale aide à améliorer la gestion des ressources et à promouvoir des habitudes responsables. Créer un budget incluant épargne, dépenses et réserves pour imprévus facilite un meilleur contrôle des ressources. Il est important d'éduquer tous les membres sur l'importance de l'épargne et de la gestion consciente de l'argent. Planifier à long terme pour des besoins comme l'éducation, le logement ou la retraite contribue à maintenir une plus grande stabilité économique et réduit le stress financier de la famille."
+    ],
+    "image": "https://images.pexels.com/photos/3184456/pexels-photo-3184456.jpeg?auto=compress&cs=tinysrgb&w=1200"
+  },
+  {
+    "title": "Techniques sûres pour épargner et investir de manière responsable",
+    "excerpt": "Apprenez des méthodes pour augmenter vos économies et gérer vos investissements de manière responsable.",
+    "slug": "ahorro-inversion",
+    "content": [
+      "Épargner et investir nécessite discipline et planification. Avant de consacrer de l'argent aux investissements, il est conseillé de créer un fonds d'urgence couvrant plusieurs mois de dépenses essentielles. Diversifier les investissements dans différents instruments financiers permet de réduire les risques. Revoir périodiquement les objectifs et ajuster les stratégies en fonction des changements du marché ou des besoins personnels aide à gérer le patrimoine de manière responsable et contribue à une plus grande stabilité financière."
+    ],
+    "image": "https://images.pexels.com/photos/3184466/pexels-photo-3184466.jpeg?auto=compress&cs=tinysrgb&w=1200"
+  },
+  {
+    "title": "Protégez le patrimoine familial grâce à des assurances responsables",
+    "excerpt": "L'importance des assurances pour gérer les risques et maintenir la stabilité financière.",
+    "slug": "seguros-financieros",
+    "content": [
+      "Les assurances aident à gérer les risques et protéger le patrimoine familial. Évaluer les besoins individuels et familiaux permet de choisir des couvertures adaptées en santé, vie, habitation et autres risques. Inclure les paiements d'assurance dans le budget mensuel garantit que les ressources sont disponibles et que la couverture est efficace. Une stratégie d'assurance planifiée contribue à la sécurité économique, offre la tranquillité face aux imprévus et protège les biens et la stabilité financière de la famille de manière responsable."
+    ],
+    "image": "https://images.pexels.com/photos/3184349/pexels-photo-3184349.jpeg?auto=compress&cs=tinysrgb&w=1200"
+  },
+  {
+    "title": "Planification de la retraite avec des stratégies d'épargne prudentes",
+    "excerpt": "Apprenez à préparer votre avenir financier grâce à une épargne planifiée.",
+    "slug": "plan-jubilacion",
+    "content": [
+      "Se préparer à la retraite implique de commencer à épargner tôt et de fixer des objectifs réalistes. Combiner plans de retraite publics et privés, ainsi qu'ajuster les contributions en fonction du revenu et des besoins personnels, aide à maintenir un niveau de vie adéquat à l'avenir. Revoir périodiquement la stratégie financière et ajuster face aux changements économiques assure que les ressources sont disponibles au bon moment. Cette planification permet de gérer la retraite de manière responsable et sereine, sans dépendre exclusivement des tiers."
+    ],
+    "image": "https://images.pexels.com/photos/3184334/pexels-photo-3184334.jpeg?auto=compress&cs=tinysrgb&w=1200"
   }
 ]

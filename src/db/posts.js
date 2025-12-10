@@ -458,7 +458,186 @@ const rawPosts = [
   },
 ];
 
+// итальянский
+
+// const rawPosts = [
+//   {
+//     title: "Strategie finanziarie per imprenditori moderni",
+//     excerpt:
+//       "Scopri come organizzare le tue finanze e migliorare la pianificazione della tua attività.",
+//     slug: "finanzas-emprendedores",
+//     content: [
+//       "Per gli imprenditori, mantenere le finanze ordinate è fondamentale per migliorare la pianificazione finanziaria a lungo termine. Elaborare un piano dettagliato, assegnare budget per gli investimenti e rivedere periodicamente entrate e spese consente di prendere decisioni informate e ridurre i rischi. Inoltre, diversificare le fonti di reddito e stabilire obiettivi chiari, misurabili e raggiungibili aiuta a mantenere una maggiore stabilità economica e facilita la gestione responsabile delle risorse finanziarie.",
+//     ],
+//   },
+//   {
+//     title: "Tecniche sicure per risparmiare e investire responsabilmente",
+//     excerpt:
+//       "Impara metodi per aumentare i tuoi risparmi e gestire gli investimenti in modo responsabile.",
+//     slug: "ahorro-inversion",
+//     content: [
+//       "Risparmiare e investire richiede disciplina e pianificazione. Prima di destinare denaro agli investimenti, è consigliabile creare un fondo di emergenza che copra diversi mesi di spese essenziali. Diversificare gli investimenti in diversi strumenti finanziari permette di ridurre i rischi. Rivedere periodicamente gli obiettivi e adeguare le strategie in base ai cambiamenti del mercato o alle esigenze personali aiuta a gestire il patrimonio in modo responsabile e contribuisce a una maggiore stabilità finanziaria.",
+//     ],
+//   },
+//   {
+//     title: "Guida pratica per creare un budget personale sostenibile",
+//     excerpt:
+//       "Organizza le tue entrate e spese per migliorare la gestione delle finanze personali.",
+//     slug: "presupuesto-personal",
+//     content: [
+//       "Creare un budget personale dettagliato è essenziale per mantenere il controllo sulle risorse finanziarie. Registrare tutte le entrate e le spese mensili permette di identificare i modelli di consumo e le aree in cui ottimizzare le spese. Classificare le spese in essenziali e non essenziali aiuta a dare priorità alle necessità. Adeguare il budget in base agli obiettivi personali e stabilire obiettivi di risparmio concreti genera disciplina e permette di pianificare acquisti importanti o investimenti in modo responsabile, senza compromettere la stabilità economica.",
+//     ],
+//   },
+//   {
+//     title: "Consigli pratici per la gestione finanziaria delle famiglie",
+//     excerpt:
+//       "Raccomandazioni per gestire il denaro familiare e promuovere abitudini finanziarie responsabili.",
+//     slug: "finanzas-familiares",
+//     content: [
+//       "La pianificazione finanziaria familiare aiuta a migliorare la gestione delle risorse e a promuovere abitudini responsabili. Creare un budget che includa risparmi, spese e riserve per imprevisti facilita un migliore controllo delle risorse. È importante educare tutti i membri sull'importanza del risparmio e della gestione consapevole del denaro. Pianificare a lungo termine per necessità come istruzione, abitazione o pensione contribuisce a mantenere una maggiore stabilità economica e riduce lo stress finanziario della famiglia.",
+//     ],
+//   },
+//   {
+//     title: "Metodi pratici per controllare e ridurre i debiti in modo responsabile",
+//     excerpt: "Impara a gestire i tuoi debiti in modo organizzato e sicuro.",
+//     slug: "gestion-deudas",
+//     content: [
+//       "Gestire i debiti in modo organizzato è fondamentale per mantenere finanze sane. Dare priorità al pagamento dei debiti con interessi più alti aiuta a ridurre i costi finanziari. Negoziare condizioni più favorevoli con i creditori, come termini più lunghi o tassi più bassi, può alleviare il carico. Evitare di contrarre nuovi debiti inutili mentre si gestiscono quelli esistenti contribuisce a una maggiore stabilità. La combinazione di pianificazione, disciplina e strategie responsabili permette di mantenere uno storico finanziario solido senza compromettere la sicurezza economica personale.",
+//     ],
+//   },
+//   {
+//     title: "Iniziazione responsabile agli investimenti in borsa e pianificazione finanziaria",
+//     excerpt:
+//       "Scopri come iniziare a investire e gestire il tuo patrimonio in modo responsabile.",
+//     slug: "inversion-mercado-valores",
+//     content: [
+//       "Investire nel mercato azionario richiede conoscenza e pianificazione responsabile. Prima di iniziare, è consigliabile informarsi su azioni, obbligazioni e fondi d'investimento, così come sui rischi associati. Investire solo denaro non necessario a breve termine e basare le decisioni sull'analisi aiuta a evitare situazioni impreviste. Rivedere periodicamente il portafoglio, diversificare gli investimenti e agire con prudenza permette di gestire il patrimonio in modo responsabile e di sfruttare le opportunità finanziarie in sicurezza.",
+//     ],
+//   },
+//   {
+//     title: "Pianificazione della pensione con strategie di risparmio prudenti",
+//     excerpt: "Impara a preparare il tuo futuro finanziario mediante risparmio pianificato.",
+//     slug: "plan-jubilacion",
+//     content: [
+//       "Prepararsi per la pensione implica iniziare a risparmiare in anticipo e stabilire obiettivi realistici. Combinare piani pensionistici pubblici e privati, nonché adeguare i contributi in base a reddito ed esigenze personali, aiuta a mantenere un adeguato tenore di vita in futuro. Rivedere periodicamente la strategia finanziaria e fare aggiustamenti di fronte a cambiamenti economici assicura che le risorse siano disponibili al momento giusto. Questa pianificazione permette di gestire la pensione in modo responsabile e sereno, senza dipendere esclusivamente da terzi.",
+//     ],
+//   },
+//   {
+//     title: "Proteggi il patrimonio familiare tramite assicurazioni responsabili",
+//     excerpt:
+//       "L'importanza delle assicurazioni per gestire i rischi e mantenere la stabilità finanziaria.",
+//     slug: "seguros-financieros",
+//     content: [
+//       "Le assicurazioni aiutano a gestire i rischi e proteggere il patrimonio familiare. Valutare le necessità individuali e familiari permette di scegliere coperture adeguate in salute, vita, abitazione e altri rischi. Includere i pagamenti assicurativi nel budget mensile assicura che le risorse siano disponibili e che la copertura sia efficace. Una strategia assicurativa pianificata contribuisce alla sicurezza economica, offre tranquillità di fronte agli imprevisti e protegge beni e stabilità finanziaria della famiglia in modo responsabile.",
+//     ],
+//   },
+//   {
+//     title: "Educazione finanziaria per giovani e abitudini di gestione responsabile del denaro",
+//     excerpt:
+//       "Inizia i giovani nella gestione consapevole delle proprie finanze fin dalla giovane età.",
+//     slug: "educacion-financiera-jovenes",
+//     content: [
+//       "Insegnare educazione finanziaria ai giovani promuove abitudini responsabili e consapevoli con il denaro. Introdurre concetti di risparmio, budget e pianificazione permette loro di comprendere l'importanza di gestire le risorse. Spiegare il funzionamento di investimenti base, credito responsabile e obiettivi finanziari aiuta a sviluppare autonomia e fiducia. Stabilire esempi pratici e obiettivi raggiungibili rafforza la disciplina finanziaria, preparando i giovani a prendere decisioni consapevoli e responsabili che contribuiscano alla stabilità economica futura.",
+//     ],
+//   },
+// ]
+
+// const rawPosts = [
+//   {
+//     title: "Stratégies financières pour les entrepreneurs modernes",
+//     excerpt:
+//       "Découvrez comment organiser vos finances et améliorer la planification de votre activité.",
+//     slug: "finanzas-emprendedores",
+//     content: [
+//       "Pour les entrepreneurs, maintenir des finances organisées est essentiel pour améliorer la planification financière à long terme. Élaborer un plan détaillé, allouer un budget pour les investissements et revoir périodiquement les revenus et dépenses permet de prendre des décisions éclairées et de réduire les risques. De plus, diversifier les sources de revenus et établir des objectifs clairs, mesurables et atteignables aide à maintenir une plus grande stabilité économique et facilite la gestion responsable des ressources financières.",
+//     ],
+//   },
+//   {
+//     title: "Techniques sûres pour épargner et investir de manière responsable",
+//     excerpt:
+//       "Apprenez des méthodes pour augmenter vos économies et gérer vos investissements de manière responsable.",
+//     slug: "ahorro-inversion",
+//     content: [
+//       "Épargner et investir nécessite discipline et planification. Avant de consacrer de l'argent aux investissements, il est conseillé de créer un fonds d'urgence couvrant plusieurs mois de dépenses essentielles. Diversifier les investissements dans différents instruments financiers permet de réduire les risques. Revoir périodiquement les objectifs et ajuster les stratégies en fonction des changements du marché ou des besoins personnels aide à gérer le patrimoine de manière responsable et contribue à une plus grande stabilité financière.",
+//     ],
+//   },
+//   {
+//     title: "Guide pratique pour créer un budget personnel durable",
+//     excerpt:
+//       "Organisez vos revenus et dépenses pour améliorer la gestion de vos finances personnelles.",
+//     slug: "presupuesto-personal",
+//     content: [
+//       "Créer un budget personnel détaillé est essentiel pour garder le contrôle sur les ressources financières. Enregistrer tous les revenus et dépenses mensuels permet d'identifier les habitudes de consommation et les domaines où optimiser les dépenses. Classer les dépenses en essentielles et non essentielles aide à donner la priorité aux besoins. Adapter le budget en fonction des objectifs personnels et établir des objectifs d'épargne concrets génère de la discipline et permet de planifier des achats importants ou des investissements de manière responsable, sans compromettre la stabilité économique.",
+//     ],
+//   },
+//   {
+//     title: "Conseils pratiques pour la gestion financière des familles",
+//     excerpt:
+//       "Recommandations pour gérer l'argent familial et promouvoir des habitudes financières responsables.",
+//     slug: "finanzas-familiares",
+//     content: [
+//       "La planification financière familiale aide à améliorer la gestion des ressources et à promouvoir des habitudes responsables. Créer un budget incluant épargne, dépenses et réserves pour imprévus facilite un meilleur contrôle des ressources. Il est important d'éduquer tous les membres sur l'importance de l'épargne et de la gestion consciente de l'argent. Planifier à long terme pour des besoins comme l'éducation, le logement ou la retraite contribue à maintenir une plus grande stabilité économique et réduit le stress financier de la famille.",
+//     ],
+//   },
+//   {
+//     title:
+//       "Méthodes pratiques pour contrôler et réduire les dettes de manière responsable",
+//     excerpt: "Apprenez à gérer vos dettes de manière organisée et sécurisée.",
+//     slug: "gestion-deudas",
+//     content: [
+//       "Gérer les dettes de manière organisée est fondamental pour maintenir des finances saines. Prioriser le remboursement des dettes à taux d'intérêt élevé aide à réduire les coûts financiers. Négocier des conditions plus favorables avec les créanciers, comme des échéances plus longues ou des taux plus bas, peut alléger la charge. Éviter de contracter de nouvelles dettes inutiles tout en gérant celles existantes contribue à une plus grande stabilité. La combinaison de planification, discipline et stratégies responsables permet de maintenir un historique financier solide sans compromettre la sécurité économique personnelle.",
+//     ],
+//   },
+//   {
+//     title:
+//       "Initiation responsable aux investissements boursiers et planification financière",
+//     excerpt:
+//       "Découvrez comment commencer à investir et gérer votre patrimoine de manière responsable.",
+//     slug: "inversion-mercado-valores",
+//     content: [
+//       "Investir en bourse nécessite connaissance et planification responsable. Avant de commencer, il est conseillé de s'informer sur les actions, obligations et fonds d'investissement, ainsi que sur les risques associés. Investir uniquement de l'argent non nécessaire à court terme et baser les décisions sur l'analyse aide à éviter les situations imprévues. Revoir périodiquement le portefeuille, diversifier les investissements et agir avec prudence permet de gérer le patrimoine de manière responsable et de profiter des opportunités financières en toute sécurité.",
+//     ],
+//   },
+//   {
+//     title:
+//       "Planification de la retraite avec des stratégies d'épargne prudentes",
+//     excerpt:
+//       "Apprenez à préparer votre avenir financier grâce à une épargne planifiée.",
+//     slug: "plan-jubilacion",
+//     content: [
+//       "Se préparer à la retraite implique de commencer à épargner tôt et de fixer des objectifs réalistes. Combiner plans de retraite publics et privés, ainsi qu'ajuster les contributions en fonction du revenu et des besoins personnels, aide à maintenir un niveau de vie adéquat à l'avenir. Revoir périodiquement la stratégie financière et ajuster face aux changements économiques assure que les ressources sont disponibles au bon moment. Cette planification permet de gérer la retraite de manière responsable et sereine, sans dépendre exclusivement des tiers.",
+//     ],
+//   },
+//   {
+//     title:
+//       "Protégez le patrimoine familial grâce à des assurances responsables",
+//     excerpt:
+//       "L'importance des assurances pour gérer les risques et maintenir la stabilité financière.",
+//     slug: "seguros-financieros",
+//     content: [
+//       "Les assurances aident à gérer les risques et protéger le patrimoine familial. Évaluer les besoins individuels et familiaux permet de choisir des couvertures adaptées en santé, vie, habitation et autres risques. Inclure les paiements d'assurance dans le budget mensuel garantit que les ressources sont disponibles et que la couverture est efficace. Une stratégie d'assurance planifiée contribue à la sécurité économique, offre la tranquillité face aux imprévus et protège les biens et la stabilité financière de la famille de manière responsable.",
+//     ],
+//   },
+//   {
+//     title:
+//       "Éducation financière pour les jeunes et habitudes responsables de gestion de l'argent",
+//     excerpt:
+//       "Initiez les jeunes à la gestion consciente de leurs finances dès le plus jeune âge.",
+//     slug: "educacion-financiera-jovenes",
+//     content: [
+//       "Enseigner l'éducation financière aux jeunes favorise des habitudes responsables et conscientes avec l'argent. Introduire les concepts d'épargne, de budget et de planification leur permet de comprendre l'importance de gérer les ressources. Expliquer le fonctionnement des investissements de base, du crédit responsable et des objectifs financiers aide à développer autonomie et confiance. Établir des exemples pratiques et des objectifs atteignables renforce la discipline financière, préparant les jeunes à prendre des décisions éclairées et responsables contribuant à la stabilité économique future.",
+//     ],
+//   },
+// ];
+
 export const posts = rawPosts.map((post, index) => ({
   ...post,
   image: getUniqueImages(seed, 50)[index],
 }));
+
+export const text = {
+  title: "Artículo no encontrado",
+  subtitle: "Lo sentimos, el artículo que buscas no existe.",
+};
+
+export const battonText = "atrás";

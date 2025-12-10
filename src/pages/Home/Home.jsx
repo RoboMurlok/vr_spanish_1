@@ -16,7 +16,7 @@ const map = {
 
 export default function Home() {
   return (
-    <div className="hero">
+    <div className="container">
       {order.map((sectionKey) => (
         <Fragment key={sectionKey}>{map[sectionKey]}</Fragment>
       ))}

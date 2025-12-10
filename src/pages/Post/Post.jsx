@@ -2,6 +2,6 @@ import PostSection from "../../components/PostSection/PostSection"
 
 export default function Post() {
   return (
-    <div className="post"><PostSection /></div>
+    <div className="container"><PostSection /></div>
   )
 }

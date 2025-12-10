@@ -4,7 +4,7 @@ import TextSection from "../../components/TextSection/TextSection";
 
 export default function FAQ() {
   return (
-    <div className="faq">
+ <div className="container">
       <BannerSection />
       <FAQSection />
       <TextSection />

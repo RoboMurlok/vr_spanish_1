@@ -27,7 +27,6 @@ export default function TextSection() {
         <h1 className="post-title">{currentText.title}</h1>
         <p className="card-title">{currentText.content}</p>
       </div>
-
       <div className="hero-image">
         <div className="hero-img-placeholder">
           <img src={randomImage} alt="hero" />

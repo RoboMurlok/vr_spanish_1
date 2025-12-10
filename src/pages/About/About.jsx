@@ -5,7 +5,7 @@ import TextSection from "../../components/TextSection/TextSection";
 
 export default function About() {
   return (
-    <div>
+    <div className="container">
       <BannerSection />
       <WhySection />
       <TextSection />

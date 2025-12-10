@@ -3,7 +3,7 @@ import BannerSection from "../../components/BannerSection";
 
 export default function Blog() {
   return (
-    <div className="blog">
+  <div className="container">
       <BannerSection />
       <BlogSection />
     </div>

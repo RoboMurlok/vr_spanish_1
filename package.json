@@ -11,14 +11,15 @@
     "shuffle:themes": "node generateTheme.js",
     "shuffle:text": "node generateText.js",
     "shuffleAll": "npm run shuffle:sections && npm run shuffle:posts && npm run shuffle:reviews && npm run shuffle:themes && npm run shuffle:text",
-    "build": "npm run shuffleAll && vite build",
+    "build": "npm run shuffleAll && vite build && node afterBuild.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "react-router-dom": "^7.10.1"
+    "react-router-dom": "^7.10.1",
+    "zip-a-folder": "^4.0.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
