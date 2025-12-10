@@ -1,6 +1,8 @@
-// import { seed } from "../../seed.js";
+import { getUniqueImages } from "./images.js";
 
-export const text = [
+import { seed } from "../../seed.js";
+
+ const rawText = [
   {
     "title": "Consultas Financieras Jubilados",
     "content": "¿Buscas consultas financieras para jubilados? Te orientamos en planificación de presupuestos para pensionados. Aprende cómo ahorrar en tu pensión con control de gastos efectivo. Optimiza tu presupuesto familiar paso a paso. Identifica ahorros en compras diarias y servicios. Vive la jubilación con más tranquilidad financiera. Descubre consejos prácticos para manejar finanzas sin estrés. ¡Empieza hoy tu mejora económica personalizada!"
@@ -261,8 +263,7 @@ export const text = [
 //   },
 // ];
 
-
-// export function getText(index = 0) {
-//   const textIndex = (seed * 7 + index * 13) % text.length;
-//   return text[textIndex];
-// }
+export const text = rawText.map((post, index) => ({
+  ...post,
+  image: getUniqueImages(seed, 20)[index],
+}));

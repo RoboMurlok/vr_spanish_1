@@ -15,7 +15,7 @@ const map = {
 
 export default function Reviews() {
   return (
-   <div className="container">
+    <div className="container">
       <BannerSection />
       {order.map((sectionKey) => (
         <Fragment key={sectionKey}>{map[sectionKey]}</Fragment>

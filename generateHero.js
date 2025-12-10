@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // путь к text.js
-const textPath = path.join(__dirname, "src", "db", "text.js");
+const textPath = path.join(__dirname, "src", "db", "hero.js");
 const textModule = await import(pathToFileURL(textPath).href);
 const { text } = textModule;
 
@@ -35,13 +35,13 @@ function shuffleWithSeed(array, seed) {
 // перемешиваем по seed
 const shuffled = shuffleWithSeed(text, seed);
 
-// выбираем ровно 10
-const selected = shuffled.slice(0, 10);
+// выбираем ровно 1
+const selected = shuffled.slice(0, 1);
 
-const outputPath = path.join(__dirname, "src", "textRandom.json");
+const outputPath = path.join(__dirname, "src", "heroRandom.json");
 fs.writeFileSync(outputPath, JSON.stringify(selected, null, 2));
 
 console.log(
-  `text generated (3 text) with seed ${seed}:`,
+  `text generated (1 text) with seed ${seed}:`,
   selected.map((p) => p.title)
 );

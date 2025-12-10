@@ -1,20 +1,20 @@
 [
   {
-    "name": "María López",
-    "role": "Profesional independiente",
-    "text": "Excelente asesoría, muy clara y personalizada según mis objetivos financieros.",
-    "avatar": "https://i.pravatar.cc/100?img=5"
+    "name": "Elena Ruiz",
+    "role": "Arquitecta",
+    "text": "Ahora entiendo cómo funciona la inversión y cómo puedo hacer crecer mi dinero con seguridad.",
+    "avatar": "https://i.pravatar.cc/100?img=39"
   },
   {
-    "name": "Fernando Gómez",
+    "name": "Juan Pérez",
     "role": "Empresario",
-    "text": "Ahora tengo claridad sobre mis finanzas y puedo invertir con confianza en nuevos proyectos.",
-    "avatar": "https://i.pravatar.cc/100?img=48"
+    "text": "La consultoría financiera me ayudó a organizar mis gastos y aumentar mis ahorros en pocos meses.",
+    "avatar": "https://i.pravatar.cc/100?img=12"
   },
   {
-    "name": "Jorge Torres",
-    "role": "Consultor",
-    "text": "El asesoramiento financiero me permitió optimizar mis ingresos y planificar mi futuro.",
-    "avatar": "https://i.pravatar.cc/100?img=30"
+    "name": "María López",
+    "role": "Profesora",
+    "text": "Gracias a la asesoría financiera pude planificar mejor mi presupuesto mensual y reducir mis deudas.",
+    "avatar": "https://i.pravatar.cc/100?img=15"
   }
 ]

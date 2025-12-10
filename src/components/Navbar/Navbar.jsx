@@ -2,13 +2,11 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { buildCount } from "../../../count.js";
 import { siteName } from "../../../siteName";
-import { navbarLinks } from "../../db/navbarlinks.js";
+import { navbarLinks } from "../../db/navbar.js";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen(!isOpen);
-
-  // const brendName = siteName[buildCount].split(".")[0];
 
     let brendName = "";
 

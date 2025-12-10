@@ -1,17 +1,8 @@
-import { useState } from "react";
 import { useLocation } from "react-router-dom";
-import { getUniqueImages } from "../../db/images";
-import { seed } from "../../../seed";
 import textRandom from "../../textRandom.json";
 
 export default function TextSection() {
   const pathname = useLocation().pathname;
-
-  const [images] = useState(() => getUniqueImages(seed, 10));
-
-  const [randomImage] = useState(() => {
-    return images[Math.floor(Math.random() * images.length)];
-  });
 
   const routes = ["/about", "/faq", "/reviews", "/services"];
 
@@ -20,6 +11,7 @@ export default function TextSection() {
 
   // Берем объект из textRandom по индексу, если не найден — берем первый
   const currentText = textRandom[index >= 0 ? index : 0];
+  console.log(textRandom[index].image);
 
   return (
     <section className="hero container">
@@ -29,7 +21,7 @@ export default function TextSection() {
       </div>
       <div className="hero-image">
         <div className="hero-img-placeholder">
-          <img src={randomImage} alt="hero" />
+          <img src={textRandom[index].image} alt="hero" />
         </div>
       </div>
     </section>

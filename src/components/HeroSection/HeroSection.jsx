@@ -1,10 +1,8 @@
-import { getUniqueImages } from "../../db/images";
-import { seed } from "../../../seed";
-import { getHero, battonText } from "../../db/hero";
+import { battonText } from "../../db/hero";
+import randomHero from "../../heroRandom.json";
 
 export default function HeroSection() {
-  const image = getUniqueImages(seed, 6);
-  const { title, subtitle } = getHero(1);
+  const { title, subtitle, image } = randomHero[0];
 
   return (
     <section id="hero" className="hero container">

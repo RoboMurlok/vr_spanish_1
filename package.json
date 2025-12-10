@@ -6,11 +6,12 @@
   "scripts": {
     "dev": "vite",
     "shuffle:sections": "node generateSectionsOrder.js",
+    "shuffle:hero": "node generateHero.js",
     "shuffle:posts": "node generateBlogPosts.js",
     "shuffle:reviews": "node generateReviews.js",
     "shuffle:themes": "node generateTheme.js",
     "shuffle:text": "node generateText.js",
-    "shuffleAll": "npm run shuffle:sections && npm run shuffle:posts && npm run shuffle:reviews && npm run shuffle:themes && npm run shuffle:text",
+    "shuffleAll": "npm run shuffle:sections && npm run shuffle:hero && npm run shuffle:posts && npm run shuffle:reviews && npm run shuffle:themes && npm run shuffle:text",
     "build": "npm run shuffleAll && vite build && node afterBuild.js",
     "lint": "eslint .",
     "preview": "vite preview"

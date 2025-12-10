@@ -1,6 +1,8 @@
+import { getUniqueImages } from "./images.js";
+
 import { seed } from "../../seed.js";
 
-const arrHero = [
+export const rawText = [
   {
     title: "Transforma tu futuro financiero hoy",
     subtitle:
@@ -277,9 +279,9 @@ const arrHero = [
 //   },
 // ];
 
-export function getHero(index = 0) {
-  const heroIndex = (seed * 7 + index * 13) % arrHero.length;
-  return arrHero[heroIndex];
-}
+export const text = rawText.map((post, index) => ({
+  ...post,
+  image: getUniqueImages(seed, 20)[index],
+}));
 
 export const battonText = { text_1: "Nuestros servicios", text_2: "Consulta" };

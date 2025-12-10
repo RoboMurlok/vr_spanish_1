@@ -11,58 +11,6 @@
   --color-shadow: ;
 }
 
-/* :root {
-  --color-primary: #8e44ad;
-  --color-primary-dark: #6c3483;
-  --color-secondary: #f3e6f5;
-  --color-text: #333;
-  --color-subtext: #666;
-  --color-bg-hero: linear-gradient(135deg, #f6f0f9, #e6d6f0);
-  --color-bg-why: #f5f0f7;
-  --color-bg-contact: linear-gradient(135deg, #8e44ad, #6c3483);
-  --color-bg-card: #fff;
-  --color-shadow: #000000;
-} */
-
-/* :root {
-  --color-primary: #0b63d6;
-  --color-primary-dark: #084fa8;
-  --color-secondary: #e4ecfb;
-  --color-text: #444;
-  --color-subtext: #666;
-  --color-bg-hero: linear-gradient(135deg, #f6f9fc, #ffffff);
-  --color-bg-why: #f9fafb;
-  --color-bg-contact: linear-gradient(135deg, #0b63d6, #003c85);
-  --color-bg-card: #eae8e8;
-  --color-shadow: #000000;
-} */
-
-/* :root {
-  --color-primary: #ff6b6b;
-  --color-primary-dark: #d64545;
-  --color-secondary: #ffe6e6;
-  --color-text: #333;
-  --color-subtext: #555;
-  --color-bg-hero: linear-gradient(135deg, #fff1f0, #ffe6e6);
-  --color-bg-why: #fff5f5;
-  --color-bg-contact: linear-gradient(135deg, #ff6b6b, #d64545);
-  --color-bg-card: #fff;
-  --color-shadow: #000000;
-}  */
-
-/* :root {
-  --color-primary: #27ae60;
-  --color-primary-dark: #1e8449;
-  --color-secondary: #d4efdf;
-  --color-text: #2d2d2d;
-  --color-subtext: #555;
-  --color-bg-hero: linear-gradient(135deg, #eafaf1, #d4efdf);
-  --color-bg-why: #f2f7f2;
-  --color-bg-contact: linear-gradient(135deg, #27ae60, #1e8449);
-  --color-bg-card: #fff;
-  --color-shadow: #5b5b5b;
-} */
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -229,7 +177,7 @@ body {
 .hero-btn-secondary {
   background: var(--color-secondary);
   border: 1px solid var(--color-shadow);
-  color: var(--color-shadow);
+  color: var(--color-text);
 }
 
 .hero-btn-secondary:hover {
